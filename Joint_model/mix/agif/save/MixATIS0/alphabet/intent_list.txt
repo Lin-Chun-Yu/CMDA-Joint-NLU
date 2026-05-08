@@ -1,0 +1,17 @@
+atis_flight	2015
+atis_airfare	1940
+atis_ground_service	1925
+atis_abbreviation	1804
+atis_flight_time	1783
+atis_aircraft	1773
+atis_airline	1768
+atis_airport	1701
+atis_ground_fare	1695
+atis_flight_no	1669
+atis_distance	1651
+atis_quantity	1650
+atis_city	1640
+atis_meal	1617
+atis_capacity	1611
+atis_restriction	1524
+atis_cheapest	1325
