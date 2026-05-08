@@ -1,0 +1,2425 @@
+deny	acknowledge,make_open_apply_setup_get_activate
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-time_from	
+O	I-time_from	
+O	I-time_from	
+O	I-time_from	
+O	I-time_from	
+O	O	
+O	B-time_to	
+O	I-time_to	
+O	I-time_to	
+O	I-time_to	
+O	O	
+O	O	
+O	O	
+O	B-date_period	
+O	I-date_period	
+
+
+pin	arrival,how_long,new,pin
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+affirm	affirm
+O	O	
+O	O	
+O	O	
+O	B-time_from	
+O	I-time_from	
+O	I-time_from	
+O	O	
+
+
+standing_order	make_open_apply_setup_get_activate,new,standing_order
+O	O	
+O	B-number	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+standing_order	make_open_apply_setup_get_activate,standing_order
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-person_name	
+O	I-person_name	
+O	O	
+O	O	
+O	B-date_period	
+O	I-date_period	
+O	I-date_period	
+O	I-date_period	
+
+
+wrong_notworking_notshowing	cancel_close_leave_freeze,card,lost_stolen
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+B-date	B-time_period	
+I-date	I-time_period	
+I-date	I-time_period	
+
+
+current	business,make_open_apply_setup_get_activate
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+end_call	end_call
+O	O	
+O	O	
+
+
+cheque	cheque,request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+	cheque,transfer_payment_deposit,why,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+end_call	end_call
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	acknowledge
+O	O	
+O	B-time	
+O	I-time	
+O	I-time	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	cancel_close_leave_freeze,card,contactless,lost_stolen
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+B-date	B-date	
+I-date	O	
+O	O	
+
+
+affirm	affirm,arrival,thank
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+when	arrival,when
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+deny	deny,lost_stolen
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+overdraft	card,credit,limits,overdraft,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+	affirm,thank
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date_to	
+O	I-date_to	
+O	I-date_to	
+O	O	
+O	O	
+O	O	
+
+
+account	request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date_from	
+O	O	
+O	O	
+O	B-date_to	
+O	I-date_to	
+O	I-date_to	
+
+
+card	card,credit,international,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	more_higher_after,request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-company_name	
+O	I-company_name	
+O	O	
+O	O	
+O	O	
+O	B-date_period	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-amount_of_money	
+O	O	
+O	B-shopping_category	
+
+
+how_much	how_much,more_higher_after,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-shopping_category	
+O	I-shopping_category	
+B-date_period	O	
+I-date_period	B-date_from	
+O	O	
+O	O	
+
+
+how_much	how_much
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-shopping_category	
+B-date_period	B-date	
+I-date_period	I-date	
+I-date_period	I-date	
+
+
+when	mortgage,when
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+	affirm,greet
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-time	
+O	I-time	
+O	I-time	
+O	O	
+O	O	
+O	O	
+
+
+pin	affirm,pin,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+debit	balance,when
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+end_call	greet,thank
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+debit	account,card,current,debit,request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+how_long	card,debit,thank
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+cancel_close_leave_freeze	pin
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+how_much	appointment,make_open_apply_setup_get_activate,thank
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+withdrawal	card,withdrawal,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+international	card,make_open_apply_setup_get_activate,withdrawal
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-amount_of_money	
+O	I-amount_of_money	
+
+
+debit	debit,dont_know
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	card,contactless,request_info,withdrawal
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	card,request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-company_name	
+O	I-company_name	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+refund	how,make_open_apply_setup_get_activate,refund
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-company_name	
+O	I-company_name	
+O	O	
+O	O	
+
+
+deny	deny,direct_debit,existing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-company_name	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+how_long	account,card,how,make_open_apply_setup_get_activate,savings
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+how_long	balance,direct_debit,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	contactless,dont_know
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+fees_interests	contactless,limits,request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	B-date_period	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+limits	direct_debit,request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+refund	refund
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-amount_of_money	
+O	O	
+O	O	
+
+
+refund	refund,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+overdraft	change,dont_know,less_lower_before,overdraft,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	less_lower_before
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+cancel_close_leave_freeze	appointment,cancel_close_leave_freeze,mortgage
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date	
+O	O	
+O	B-time	
+O	I-time	
+O	I-time	
+O	I-time	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+why	fees_interests,loan,more_higher_after,request_info,why
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+mortgage	loan,why,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+appointment	appointment,make_open_apply_setup_get_activate
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+fees_interests	fees_interests,mortgage,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+loan	make_open_apply_setup_get_activate,mortgage,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+	fees_interests,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date_period	
+O	O	
+O	O	
+
+
+request_info	more_higher_after,request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date_period	
+O	I-date_period	
+
+
+deny	deny,handoff,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+greet	handoff
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+loan	fees_interests,loan,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+loan	cancel_close_leave_freeze,loan
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	cancel_close_leave_freeze,fees_interests,overdraft,transfer_payment_deposit,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	change,limits,more_higher_after,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date	
+O	O	
+
+
+balance	account,how_much,limits,savings,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	more_higher_after
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+change	change
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+deny	change
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	balance,how_much
+O	O	
+O	O	
+O	O	
+
+
+	balance,how_much
+O	O	
+O	O	
+
+
+how_much	fees_interests,how_much,international,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-amount_of_money	
+O	O	
+O	I-amount_of_money	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+dont_know	dont_know
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-amount_of_money	
+O	I-amount_of_money	
+
+
+transfer_payment_deposit	make_open_apply_setup_get_activate,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	B-amount_of_money	
+O	O	
+O	B-person_name	
+O	I-person_name	
+O	B-date	
+B-date	I-date	
+I-date	I-date	
+
+
+balance	balance,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+account	account,current,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+fees_interests	account,fees_interests,request_info,savings
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	fees_interests
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+cancel_close_leave_freeze	account,cancel_close_leave_freeze
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date	
+O	O	
+
+
+wrong_notworking_notshowing	international,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+withdrawal	international,make_open_apply_setup_get_activate,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+current	account,current
+O	O	
+O	O	
+O	O	
+
+
+change	account,make_open_apply_setup_get_activate,new,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+cancel_close_leave_freeze	account,existing,make_open_apply_setup_get_activate,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+transfer_payment_deposit	make_open_apply_setup_get_activate
+O	O	
+O	O	
+O	O	
+O	B-date	
+
+
+wrong_notworking_notshowing	dont_know
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	card,transfer_payment_deposit,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+affirm	affirm
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+card	card
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+transfer_payment_deposit	make_open_apply_setup_get_activate,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+affirm	affirm,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+transfer_payment_deposit	deny,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+deny	deny
+O	O	
+O	O	
+
+
+request_info	request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+balance	transfer_payment_deposit,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+change	change
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-time_to	
+O	I-time_to	
+O	I-time_to	
+O	I-time_to	
+O	O	
+
+
+deny	repeat
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+lost_stolen	lost_stolen
+O	O	
+O	O	
+O	O	
+O	B-date	
+O	B-time_period	
+
+
+request_info	how_long
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+lost_stolen	business,card,greet,transfer_payment_deposit,why,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+why	less_lower_before,standing_order,transfer_payment_deposit,why
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-person_name	
+O	O	
+O	O	
+B-date_period	B-date_period	
+I-date_period	I-date_period	
+
+
+end_call	end_call,thank
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+deny	affirm,business
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+cheque	card,cheque,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-company_name	
+O	I-company_name	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+end_call	acknowledge,thank,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+end_call	acknowledge
+O	O	
+O	O	
+O	O	
+O	B-time	
+O	I-time	
+
+
+end_call	end_call
+O	O	
+O	O	
+O	O	
+
+
+mortgage	cheque,request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+cancel_close_leave_freeze	lost_stolen,savings
+O	O	
+O	O	
+O	B-amount_of_money	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+when	arrival,when
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	arrival,deny
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+fees_interests	fees_interests,loan,more_higher_after,why
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+B-date_period	B-date_from	
+I-date_period	I-date_from	
+O	O	
+O	O	
+
+
+balance	card,credit,request_info,transfer_payment_deposit,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	card,lost_stolen
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+	card,credit,deny
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+transfer_payment_deposit	change,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date_to	
+O	I-date_to	
+O	I-date_to	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+B-date	B-date_from	
+I-date	O	
+O	O	
+
+
+request_info	more_higher_after,request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date_period	
+O	I-date_period	
+
+
+international	card,international,transfer_payment_deposit,when
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+pin	card,debit,dont_know,new,pin
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+when	fees_interests,mortgage,when
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+end_call	greet,new
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+end_call	greet
+O	O	
+
+
+greet	thank
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+cancel_close_leave_freeze	debit,make_open_apply_setup_get_activate
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+end_call	thank
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+pin	card,pin
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+deny	handoff,withdrawal
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+contactless	card,change,how,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	card,withdrawal,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-company_name	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+debit	affirm,debit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+why	transfer_payment_deposit,why
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-amount_of_money	
+O	O	
+O	O	
+O	B-date	
+O	O	
+O	B-time	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-company_name	
+O	I-company_name	
+
+
+request_info	less_lower_before,request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-amount_of_money	
+O	O	
+O	B-company_name	
+O	I-company_name	
+O	B-date_period	
+O	I-date_period	
+
+
+loan	direct_debit,loan,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+transfer_payment_deposit	how,international,make_open_apply_setup_get_activate,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+account	account,change,less_lower_before,limits,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+direct_debit	direct_debit,international,make_open_apply_setup_get_activate,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	card,contactless,transfer_payment_deposit,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+contactless	contactless
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	transfer_payment_deposit,why,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+transfer_payment_deposit	refund,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	B-amount_of_money	
+O	O	
+O	O	
+O	O	
+O	B-date	
+O	I-date	
+O	O	
+O	O	
+
+
+request_info	less_lower_before,make_open_apply_setup_get_activate
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date	
+O	I-date	
+O	I-date	
+
+
+refund	affirm,refund
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+make_open_apply_setup_get_activate	appointment,loan
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-time	
+O	I-time	
+B-date	I-time	
+I-date	I-time	
+O	O	
+
+
+wrong_notworking_notshowing	card,transfer_payment_deposit,why,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+how_much	appointment
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date	
+O	O	
+O	I-date	
+O	I-date	
+O	I-date	
+
+
+appointment	appointment,make_open_apply_setup_get_activate
+O	O	
+O	O	
+O	O	
+
+
+overdraft	change,more_higher_after,overdraft,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date_period	
+O	I-date_period	
+O	O	
+O	O	
+
+
+how_much	how_much,savings
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+B-date_period	B-date_period	
+I-date_period	I-date_period	
+O	O	
+O	O	
+
+
+mortgage	fees_interests,mortgage,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+mortgage	mortgage
+O	O	
+O	O	
+O	O	
+
+
+cancel_close_leave_freeze	cancel_close_leave_freeze,more_higher_after
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-amount_of_money	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+cancel_close_leave_freeze	handoff
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+loan	loan,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+greet	handoff
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+balance	account,current,limits,request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+fees_interests	card,limits,request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+overdraft	change,limits,more_higher_after,overdraft
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-amount_of_money	
+O	I-amount_of_money	
+
+
+overdraft	overdraft
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+balance	account,balance,how_much,savings
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+balance	account,balance,how_much
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date	
+O	I-date	
+O	O	
+O	O	
+
+
+	balance
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+transfer_payment_deposit	change,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-person_name	
+O	I-person_name	
+O	O	
+O	O	
+
+
+dont_know	dont_know
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+transfer_payment_deposit	dont_know,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+B-date	B-person_name	
+I-date	B-date	
+I-date	I-date	
+I-date	I-date	
+
+
+wrong_notworking_notshowing	account,current,transfer_payment_deposit,wrong_notworking_notshowing
+O	O	
+O	B-amount_of_money	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date	
+
+
+	savings
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+current	account,current,make_open_apply_setup_get_activate
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	card,fees_interests,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+make_open_apply_setup_get_activate	make_open_apply_setup_get_activate
+O	O	
+O	O	
+O	O	
+O	B-time	
+O	I-time	
+O	I-time	
+O	I-time	
+
+
+request_info	fees_interests,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	cancel_close_leave_freeze,card,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+when	international,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+cancel_close_leave_freeze	account,cancel_close_leave_freeze
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date	
+O	I-date	
+O	I-date	
+
+
+international	international
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	account,request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	make_open_apply_setup_get_activate
+O	O	
+O	O	
+O	O	
+O	B-date	
+O	I-date	
+O	I-date	
+
+
+wrong_notworking_notshowing	account,new,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+	dont_know
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+	card,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+debit	card,make_open_apply_setup_get_activate,new
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+make_open_apply_setup_get_activate	affirm,make_open_apply_setup_get_activate,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date	
+
+
+affirm	affirm
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	B-date	
+
+
+affirm	affirm
+O	O	
+O	O	
+O	B-date	
+O	I-date	
+O	O	
+O	O	
+O	O	
+
+
+request_info	deny,request_info,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	affirm
+O	O	
+O	O	
+
+
+deny	deny
+O	O	
+
+
+deny	deny,transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	transfer_payment_deposit
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	request_info
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	request_info
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+request_info	request_info
+O	O	
+O	O	
+O	O	
+O	O	
+
+
+wrong_notworking_notshowing	new,wrong_notworking_notshowing
+O	O	
+O	O	
+O	O	
+
+
